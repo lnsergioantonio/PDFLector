@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    let pdfList = ["pdf1","pdf2","pdf3"]
+    var pdfList = ["pdf1","pdf2","pdf3"]
     
     @IBOutlet var table: UITableView!
     override func viewDidLoad() {
@@ -31,9 +31,19 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         cell.textLabel?.text = pdfList[indexPath.item]
+        cell.imageView?.image = UIImage(named: "Libro.jpg")
         return cell
     }
     
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        if(editingStyle == .delete){
+            pdfList.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        }
+    }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "seguePdf"{
             let idPdfSelected = sender as! Int

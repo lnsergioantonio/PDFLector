@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4949AB9321403CEC00D6A434 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4949AB9221403CEC00D6A434 /* ViewController2.swift */; };
+		49822BA4215A847100B67F9A /* Libro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49822BA3215A847100B67F9A /* Libro.jpg */; };
 		49A414B2213EDA4E00D6AE0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A414B1213EDA4E00D6AE0B /* AppDelegate.swift */; };
 		49A414B4213EDA4E00D6AE0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A414B3213EDA4E00D6AE0B /* ViewController.swift */; };
 		49A414B7213EDA4E00D6AE0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A414B5213EDA4E00D6AE0B /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		4949AB9221403CEC00D6A434 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		49822BA3215A847100B67F9A /* Libro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Libro.jpg; sourceTree = "<group>"; };
 		49A414AE213EDA4E00D6AE0B /* PDFLector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFLector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A414B1213EDA4E00D6AE0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49A414B3213EDA4E00D6AE0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				49A414B1213EDA4E00D6AE0B /* AppDelegate.swift */,
 				49A414B3213EDA4E00D6AE0B /* ViewController.swift */,
 				49A414B5213EDA4E00D6AE0B /* Main.storyboard */,
+				49822BA3215A847100B67F9A /* Libro.jpg */,
 				49A414B8213EDA4F00D6AE0B /* Assets.xcassets */,
 				49A414BA213EDA4F00D6AE0B /* LaunchScreen.storyboard */,
 				49A414BD213EDA4F00D6AE0B /* Info.plist */,
@@ -237,6 +240,7 @@
 			files = (
 				49A414BC213EDA4F00D6AE0B /* LaunchScreen.storyboard in Resources */,
 				49A414E0213EDAC600D6AE0B /* PDF in Resources */,
+				49822BA4215A847100B67F9A /* Libro.jpg in Resources */,
 				49A414B9213EDA4F00D6AE0B /* Assets.xcassets in Resources */,
 				49A414B7213EDA4E00D6AE0B /* Main.storyboard in Resources */,
 			);
